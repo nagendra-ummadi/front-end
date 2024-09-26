@@ -1,0 +1,35 @@
+
+body{
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    background-size: cover;
+    
+}
+#calcu{
+    align-items: center;
+    justify-content: center;
+    border: 10px groove gray;
+    
+}
+
+.btn{ 
+    width: 100%; 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+} 
+
+input[type="text"] { 
+    font-size: 24px; 
+    font-weight: bold; 
+    width:145px;
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+} 
