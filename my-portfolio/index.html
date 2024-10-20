@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagendra</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/d10455da74.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">NagendRa.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer | Data Analyst</p>
+                <h1>Hi, I'm <span>Nagendra</span> <br>Ummadi From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------about------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user-nag.jpg" alt="user-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>
+                        I am passionate about Fullstack Development, Frontend Development, Data Analytics, and Software
+                        Development.
+                        My diverse skill set allows me to build user-centric applications, design engaging interfaces,
+                        and leverage data to drive
+                        business decisions. I thrive on creating solutions that are both innovative and impactful,
+                        continuously seeking opportunities
+                        to learn and grow in these fields.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-content" id="skills">
+                        <ul>
+                            <li><span>Programming languages</span> C, Python, Java, Javascript</li>
+                            <li><span>Web Technologies</span>HTML&CSS, Javascript, jQuery, Bootstrap, React, Nodejs,
+                                Expressjs</li>
+                            <li><span>Python Libraries&Frameworks</span>Pandas, Numpy, Seaborn, Matplotlib,scikit-learn,
+                                django</li>
+                            <li><span>Databases</span>MySQL, SQL Server, MongoDB, Firebase</li>
+                            <li><span>Data Visualisation Tools</span>Microsoft Excel, Jupiter notebook, Google sheets,
+                                Tableau, PowerBI </li>
+                            <li><span>Others</span>Machine Learning, NLP, Data Structures& Algorithms, AWS, Git&Github
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Twilearn</span>Fullstack Development-Internship</li>
+                            <li><span>IIDT</span> AI/ML-Internship</li>
+                            <li><span>Innovate</span>Data Analytics and Visualisation-Internship</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span>B.Tech in Data Science - 81%</li>
+                            <li><span>2018-2020</span>Intermediate - 97%</li>
+                            <li><span>2017-2018</span>SSC (10<sup>th</sup>) - 98%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------services--------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Design & Development</h2>
+                    <p>
+                        I design and build responsive, visually engaging websites that cater to your brand’s needs. From
+                        personal blogs to e-commerce platforms, I create dynamic and functional websites that offer a
+                        smooth user experience across all devices.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design & Optimization</h2>
+                    <p>
+                        My UI/UX services focus on creating intuitive, user-friendly interfaces that enhance engagement
+                        and user satisfaction. I design with the end-user in mind, ensuring a seamless journey from
+                        start to finish, while also running usability tests to continuously optimize the experience.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Data Analytics & Visualization</h2>
+                    <p>
+                        By leveraging data, I help businesses make informed decisions through custom dashboards and data
+                        visualization solutions. I analyze user behavior, traffic patterns, and performance metrics,
+                        translating complex datasets into actionable insights that drive growth.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------projects---------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="project-image">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="project-image">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="project-image">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+        </div>
+    </div>
+    <!-- -------------------------contact----------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nagendraummadi1524@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 93987-45162</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nagendra-ummadi/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/nagendra-ummadi"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/darling_nagendra_14/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.hackerrank.com/profile/nagendra_u208"><i
+                                class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                    <a href="images/Nagendra_Fullstack.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="tel" name="Mobile" placeholder="Your Mobile Number" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" style="resize: none;"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="message"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxYHemm3y2UI7AAm5X7p3LxYxxZPqT6pdOy99_Af69IqKV2haLwj2hHYC2ci6IofwU4Uw/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    const msg = document.getElementById('message');
+                    msg.innerHTML="Message sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
