@@ -18,8 +18,10 @@ function opentab(tabname){
 const sidemenu = document.getElementById('sidemenu');
 
 function openmenu(){
-    sidemenu.style.right = "0";
+    sidemenu.style.width = '200px';
+    sidemenu.style.display= "block";
 }
 function closemenu(){
-    sidemenu.style.right = "-200px";
+    sidemenu.style.width = "0px";
+    sidemenu.style.display='none'
 }

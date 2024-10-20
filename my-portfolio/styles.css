@@ -39,6 +39,9 @@ nav{
     text-shadow: 3px 3px 2px #fff;
 
 }
+#sidemenu{
+    display: inline-block;
+}
 nav ul li{
     display: inline-block;
     list-style-type: none;
@@ -155,7 +158,7 @@ nav ul li a:hover::after{
 
 .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -188,7 +191,7 @@ nav ul li a:hover::after{
 }
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -335,6 +338,11 @@ button.btn2{
     margin-top: -30px;
     display: block;
 }
+.footer{
+    width: 100%;
+    background-color: #262626;
+    height: 50px;
+}
 
 /* ------------------------css for small screens ----------------- */
 nav .fa-solid{
@@ -361,18 +369,22 @@ nav .fa-solid{
         background-color: #ff004f;
         position: absolute;
         top:  0;
-        right: -200px;
-        width: 200px;
+        right: 0;
+        width: 0;
         height: 100%;
         padding-top: 50px;
         z-index: 2;
-        transition: right 0.5s;
+        transition: width 0.5s;
 
+    }
+    #sidemenu{
+        display: none;
     }
     nav ul li{
         display: block;
         margin: 25px;
     }
+   
     nav ul .fa-solid{
         position: absolute;
         top: 25px;
@@ -397,6 +409,12 @@ nav .fa-solid{
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+    }
+    .services-list{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .work-list{
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
